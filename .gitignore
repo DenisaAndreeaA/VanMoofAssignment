@@ -1,0 +1,41 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compiled Java classes
+/out/
+/classes/
+/target/
+*.class
+
+# Compiled JavaScript
+*.min.js
+*.min.css
+
+# Python bytecode
+*.pyc
+
+# Logs and databases
+logs/
+*.log
+*.sql
+*.sqlite
+
+# IntelliJ workspace.xml file
+workspace.xml
+
+# Mac OS files
+.DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore IDEA config files
+.idea_modules/
+.ideaName
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
