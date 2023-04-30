@@ -43,10 +43,10 @@ Replace "input string" with the string you want to convert to a wave pattern.
 To run the Python program, navigate to the `python` directory and execute the following command:
 
 ```
-python3 wave.py
+python3 wave.py "input string"
 ```
 
-The program will prompt you to enter the input string.
+Replace "input string" with the string you want to convert to a wave pattern.
 
 ### JavaScript
 
