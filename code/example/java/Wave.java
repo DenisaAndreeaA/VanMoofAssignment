@@ -7,7 +7,12 @@ public class Wave {
         ArrayList<String> wave = new ArrayList<>();
 
         // Read first argument as the input string
-        String str = args[0];
+        String str = "";
+        if (args.length == 0) {
+            System.out.println("No input string provided.");
+        } else {
+            str = args[0];
+        }
 
         // Use StringBuilder to reduce complexity from lowercase string
         StringBuilder strBuilder = new StringBuilder(str.toLowerCase());
