@@ -1,5 +1,3 @@
-# Complexity O(n)
-# Usage: python3 wave.py
 def wave(str):
     wave = []
     # Convert original string to lowercase

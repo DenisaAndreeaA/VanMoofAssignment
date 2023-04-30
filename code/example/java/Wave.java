@@ -2,9 +2,6 @@ package code.example.java;
 
 import java.util.ArrayList;
 
-// Complexity O(n)
-// Compile class from /code/example/java/: javac Wave.class
-// Usage from root directory: java code.example.java.Wave ' #tE s.TWA02ve% '
 public class Wave {
     public static void main(String[] args){
         ArrayList<String> wave = new ArrayList<>();

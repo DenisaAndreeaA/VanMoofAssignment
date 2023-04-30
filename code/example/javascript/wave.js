@@ -1,5 +1,3 @@
-// Complexity O(n)
-// Usage: node wave.js
 function wave(str) {
     let wave = [];
     // Convert original string to lowercase
