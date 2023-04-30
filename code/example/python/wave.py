@@ -1,3 +1,5 @@
+import sys
+
 def wave(str):
     wave = []
     # Convert original string to lowercase
@@ -16,5 +18,9 @@ def wave(str):
     print(wave)
     return wave
 
-wave(" #tE s.TWA02ve% ")
-wave("TesTWaVE")
+
+# Call the function with one input argument
+if len(sys.argv) > 1:
+    wave(sys.argv[1])
+else:
+    print("No input string provided.")

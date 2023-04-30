@@ -19,5 +19,9 @@ function wave(str) {
     return wave;
 }
 
-wave(" #tE s.TWA02ve% ");
-wave("TesTWaVE");
+// Call the function with one input argument
+if (process.argv.length > 2) {
+    wave(process.argv[2]);
+} else {
+    console.log("No input string provided.");
+}
